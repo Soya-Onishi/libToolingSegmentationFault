@@ -4,6 +4,8 @@ This is problem reproduction repository for a question posted [stackoverflow](ht
 
 The problem is segmentation fault is occured inside of libTooling binary, `clang::dif::SyntaxTree::Impl::getDeclValue`, and it may be from object calling virtual method has NULL vtable pointer.
 
+Problem program is `src/DiffBinOpsExtractor/main.cpp` and libraries `main.cpp` depend on 
+
 ## How to build and run
 
 ### Prerequisite
