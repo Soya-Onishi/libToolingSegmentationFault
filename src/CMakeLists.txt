@@ -1,0 +1,2 @@
+add_clang_subdirectory(ASTSyntaxTree)
+add_clang_subdirectory(DiffBinOpsExtractor)
